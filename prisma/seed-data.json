@@ -1,0 +1,694 @@
+{
+  "books": [
+    {
+      "title": "Словник загублених слів",
+      "author": "Pip Williams",
+      "rating": 4,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 1
+    },
+    {
+      "title": "Смертні машини",
+      "author": "Philip Reeve",
+      "rating": 4,
+      "series": "Хроніки хижих міст",
+      "status": "READ",
+      "goodreadsOrder": 2
+    },
+    {
+      "title": "Шьоґун. Книга 2",
+      "author": "James Clavell",
+      "rating": null,
+      "series": "Asian Saga",
+      "status": "READ",
+      "goodreadsOrder": 3
+    },
+    {
+      "title": "Шьоґун. Книга 1",
+      "author": "James Clavell",
+      "rating": null,
+      "series": "Asian Saga",
+      "status": "READ",
+      "goodreadsOrder": 4
+    },
+    {
+      "title": "Щоденник мандрівного кота",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 5
+    },
+    {
+      "title": "Полум'яний бог",
+      "author": "R.F. Kuang",
+      "rating": null,
+      "series": "The Poppy War",
+      "status": "READ",
+      "goodreadsOrder": 6
+    },
+    {
+      "title": "Республіка Дракона",
+      "author": "R.F. Kuang",
+      "rating": null,
+      "series": "The Poppy War",
+      "status": "READ",
+      "goodreadsOrder": 7
+    },
+    {
+      "title": "Гаррі Поттер і Орден Фенікса",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 8
+    },
+    {
+      "title": "Оніксова буря",
+      "author": "Rebecca Yarros",
+      "rating": null,
+      "series": "The Empyrean",
+      "status": "READ",
+      "goodreadsOrder": 9
+    },
+    {
+      "title": "Книга Еміля",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 10
+    },
+    {
+      "title": "Залізне полум’я",
+      "author": "Rebecca Yarros",
+      "rating": null,
+      "series": "The Empyrean",
+      "status": "READ",
+      "goodreadsOrder": 11
+    },
+    {
+      "title": "Дерева",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 12
+    },
+    {
+      "title": "Макова війна",
+      "author": "R.F. Kuang",
+      "rating": null,
+      "series": "The Poppy War",
+      "status": "READ",
+      "goodreadsOrder": 13
+    },
+    {
+      "title": "Четверте крило",
+      "author": "Rebecca Yarros",
+      "rating": null,
+      "series": "The Empyrean",
+      "status": "READ",
+      "goodreadsOrder": 14
+    },
+    {
+      "title": "Пісня дібров",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 15
+    },
+    {
+      "title": "Тенета війни",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 16
+    },
+    {
+      "title": "Аркан вовків",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 17
+    },
+    {
+      "title": "Гаррі Поттер і келих вогню",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 18
+    },
+    {
+      "title": "Опівнічна бібліотека",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 19
+    },
+    {
+      "title": "Гаррі Поттер і в’язень Азкабану",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 20
+    },
+    {
+      "title": "Гаррі Поттер і таємна кімната",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 21
+    },
+    {
+      "title": "Гаррі Поттер і філософський камінь",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 22
+    },
+    {
+      "title": "Я бачу, вас цікавить пітьма",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 23
+    },
+    {
+      "title": "Часосховище",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 24
+    },
+    {
+      "title": "Похований велетень",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 25
+    },
+    {
+      "title": "Гімн",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 26
+    },
+    {
+      "title": "Володар мух",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 27
+    },
+    {
+      "title": "Шантарам",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 28
+    },
+    {
+      "title": "Час жити і час помирати",
+      "author": "Erich Maria Remarque",
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 29
+    },
+    {
+      "title": "Джерело",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 30
+    },
+    {
+      "title": "Атлант розправив плечі. Частина III",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 31
+    },
+    {
+      "title": "Атлант розправив плечі. Частина II",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 32
+    },
+    {
+      "title": "Атлант розправив плечі. Частина I",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 33
+    },
+    {
+      "title": "Над прірвою у житі",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 34
+    },
+    {
+      "title": "Вбити пересмішника",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 35
+    },
+    {
+      "title": "Біле Ікло",
+      "author": "Jack London",
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 36
+    },
+    {
+      "title": "Розкоші і злидні куртизанок",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 37
+    },
+    {
+      "title": "Прощавай, літо!",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 38
+    },
+    {
+      "title": "Морт",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 39
+    },
+    {
+      "title": "Мартін Іден",
+      "author": "Jack London",
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 40
+    },
+    {
+      "title": "Скотський хутір",
+      "author": "George Orwell",
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 41
+    },
+    {
+      "title": "Парфуми",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 42
+    },
+    {
+      "title": "Desperation",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 43
+    },
+    {
+      "title": "Стрілець",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 44
+    },
+    {
+      "title": "Повна темрява. Без зірок",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 45
+    },
+    {
+      "title": "Кладовище домашніх тварин",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 46
+    },
+    {
+      "title": "Чаклун та сфера",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 47
+    },
+    {
+      "title": "Який чудесний світ новий!",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 48
+    },
+    {
+      "title": "Гобсек",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 49
+    },
+    {
+      "title": "Червоне і чорне",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 50
+    },
+    {
+      "title": "Посол Урус-шайтана",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 51
+    },
+    {
+      "title": "Аліса в Країні Див",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 52
+    },
+    {
+      "title": "Sword Art Online, том 7",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 53
+    },
+    {
+      "title": "Sword Art Online, том 6",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 54
+    },
+    {
+      "title": "451° за Фаренгейтом",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 55
+    },
+    {
+      "title": "Джонатан Лівінгстон, мартин",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 56
+    },
+    {
+      "title": "Шагренева шкіра",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 57
+    },
+    {
+      "title": "Гобсек. Шагренева шкіра",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 58
+    },
+    {
+      "title": "Батько Горіо",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 59
+    },
+    {
+      "title": "Політ над гніздом зозулі",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 60
+    },
+    {
+      "title": "Ерагон",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 61
+    },
+    {
+      "title": "Прощавай, зброє!",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 62
+    },
+    {
+      "title": "На Західному фронті без змін",
+      "author": "Erich Maria Remarque",
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 63
+    },
+    {
+      "title": "Три товариші",
+      "author": "Erich Maria Remarque",
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 64
+    },
+    {
+      "title": "Тріумфальна арка",
+      "author": "Erich Maria Remarque",
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 65
+    },
+    {
+      "title": "Rework",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 66
+    },
+    {
+      "title": "Uncle Tom's Cabin",
+      "author": null,
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 67
+    },
+    {
+      "title": "The Little Prince",
+      "author": "Antoine de Saint-Exupéry",
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 68
+    },
+    {
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 69
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "rating": null,
+      "series": null,
+      "status": "READ",
+      "goodreadsOrder": 70
+    }
+  ],
+  "wishlist": [
+    {
+      "title": "На лезі клинка",
+      "author": "Joe Abercrombie",
+      "predictedEnjoymentPercent": 97,
+      "status": "TO_READ"
+    },
+    {
+      "title": "Ім'я вітру",
+      "author": "Patrick Rothfuss",
+      "predictedEnjoymentPercent": 95,
+      "status": "TO_READ"
+    },
+    {
+      "title": "Рекурсія",
+      "author": "Blake Crouch",
+      "predictedEnjoymentPercent": 94,
+      "status": "TO_READ"
+    },
+    {
+      "title": "Тінь гори",
+      "author": "Gregory David Roberts",
+      "predictedEnjoymentPercent": 92,
+      "status": "TO_READ"
+    },
+    {
+      "title": "Чорна Рота",
+      "author": "Glen Cook",
+      "predictedEnjoymentPercent": 90,
+      "status": "TO_READ"
+    },
+    {
+      "title": "Катабазис",
+      "author": "R.F. Kuang",
+      "predictedEnjoymentPercent": 89,
+      "status": "TO_READ"
+    },
+    {
+      "title": "Мене звуть Календар",
+      "author": "Andris Kalnozols",
+      "predictedEnjoymentPercent": 88,
+      "status": "TO_READ"
+    },
+    {
+      "title": "Хранитель",
+      "author": "Lois Lowry",
+      "predictedEnjoymentPercent": 87,
+      "status": "TO_READ"
+    },
+    {
+      "title": "Мигдаль",
+      "author": "Won-pyung Sohn",
+      "predictedEnjoymentPercent": 86,
+      "status": "TO_READ"
+    },
+    {
+      "title": "Нічний цирк",
+      "author": "Erin Morgenstern",
+      "predictedEnjoymentPercent": 83,
+      "status": "TO_READ"
+    },
+    {
+      "title": "Там, де співають раки",
+      "author": "Delia Owens",
+      "predictedEnjoymentPercent": 81,
+      "status": "TO_READ"
+    },
+    {
+      "title": "Скорбота Сатани",
+      "author": "Marie Corelli",
+      "predictedEnjoymentPercent": 78,
+      "status": "TO_READ"
+    },
+    {
+      "title": "Води слонам",
+      "author": "Sara Gruen",
+      "predictedEnjoymentPercent": 76,
+      "status": "TO_READ"
+    },
+    {
+      "title": "Жорстокий принц",
+      "author": "Holly Black",
+      "predictedEnjoymentPercent": 69,
+      "status": "TO_READ"
+    },
+    {
+      "title": "Тінь мертвого бога",
+      "author": "Ярослав Шевченко",
+      "predictedEnjoymentPercent": 65,
+      "status": "TO_READ"
+    },
+    {
+      "title": "Чародільський браслет",
+      "author": "Наталія Щерба",
+      "predictedEnjoymentPercent": 48,
+      "status": "TO_READ"
+    },
+    {
+      "title": "Ґідеон Дев'ята",
+      "author": "Tamsyn Muir",
+      "predictedEnjoymentPercent": 83,
+      "status": "CURRENTLY_READING"
+    },
+    {
+      "title": "Життя хлопця",
+      "author": "Robert McCammon",
+      "predictedEnjoymentPercent": 87,
+      "status": "PAUSED"
+    }
+  ],
+  "readerProfile": {
+    "name": "Акіла",
+    "version": "0.1",
+    "summary": "Initial profile from Goodreads data and discussions.",
+    "dna": {
+      "characterDevelopment": 9.8,
+      "proactiveCharacters": 9.4,
+      "morallyGreyCharacters": 9.3,
+      "centralIdea": 9.2,
+      "worldbuilding": 8.8,
+      "atmosphere": 8.7,
+      "historicalContext": 8.6,
+      "politics": 8.4,
+      "philosophyThroughStory": 8.5,
+      "emotionalImpact": 8.8,
+      "unpredictability": 8.1,
+      "fastPacingNeed": 6.8,
+      "romanceImportance": 2.0
+    }
+  }
+}

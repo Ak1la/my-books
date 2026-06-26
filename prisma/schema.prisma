@@ -1,0 +1,152 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Author {
+  id        Int      @id @default(autoincrement())
+  name      String   @unique
+  books     Book[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Series {
+  id        Int      @id @default(autoincrement())
+  title     String   @unique
+  books     Book[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Genre {
+  id        Int         @id @default(autoincrement())
+  name      String      @unique
+  books     BookGenre[]
+  createdAt DateTime    @default(now())
+  updatedAt DateTime    @updatedAt
+}
+
+model Book {
+  id             Int             @id @default(autoincrement())
+  title          String
+  originalTitle  String?
+  authorId       Int?
+  author         Author?         @relation(fields: [authorId], references: [id])
+  seriesId       Int?
+  series         Series?         @relation(fields: [seriesId], references: [id])
+  seriesIndex    Float?
+  status         String          @default("TO_READ")
+  rating         Int?
+  pages          Int?
+  dateStarted    DateTime?
+  dateFinished   DateTime?
+  goodreadsOrder Int?
+  notes          String?
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
+
+  genres         BookGenre[]
+  sessions       ReadingSession[]
+  discussions    Discussion[]
+  predictions    Prediction[]
+
+  @@index([status])
+  @@index([rating])
+}
+
+model BookGenre {
+  bookId  Int
+  genreId Int
+  book    Book  @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  genre   Genre @relation(fields: [genreId], references: [id], onDelete: Cascade)
+
+  @@id([bookId, genreId])
+}
+
+model ReadingSession {
+  id           Int           @id @default(autoincrement())
+  bookId       Int
+  book         Book          @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  startedAt    DateTime?
+  finishedAt   DateTime?
+  status       String
+  progressPage Int?
+  reason       String?
+  notes        String?
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+}
+
+model Discussion {
+  id        Int      @id @default(autoincrement())
+  bookId    Int
+  book      Book     @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  title     String
+  summary   String
+  liked     String?
+  disliked  String?
+  insights  String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model ReaderProfile {
+  id         Int          @id @default(autoincrement())
+  name       String
+  version    String
+  summary    String?
+  createdAt  DateTime     @default(now())
+  updatedAt  DateTime     @updatedAt
+  dna        ReaderDna?
+  hypotheses Hypothesis[]
+}
+
+model ReaderDna {
+  id                     Int           @id @default(autoincrement())
+  profileId              Int           @unique
+  profile                ReaderProfile @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  characterDevelopment   Float
+  proactiveCharacters    Float
+  morallyGreyCharacters  Float
+  centralIdea            Float
+  worldbuilding          Float
+  atmosphere             Float
+  historicalContext      Float
+  politics               Float
+  philosophyThroughStory Float
+  emotionalImpact        Float
+  unpredictability       Float
+  fastPacingNeed         Float
+  romanceImportance      Float
+  updatedAt              DateTime      @updatedAt
+}
+
+model Hypothesis {
+  id         Int           @id @default(autoincrement())
+  profileId  Int
+  profile    ReaderProfile @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  code       String
+  text       String
+  confidence Float
+  status     String        @default("active")
+  createdAt  DateTime      @default(now())
+  updatedAt  DateTime      @updatedAt
+}
+
+model Prediction {
+  id                        Int              @id @default(autoincrement())
+  bookId                    Int
+  book                      Book             @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  predictedEnjoymentPercent Int
+  predictedRating           Float?
+  actualRating              Int?
+  status                    String           @default("OPEN")
+  reasoning                 String?
+  createdAt                 DateTime         @default(now())
+  updatedAt                 DateTime         @updatedAt
+}
